@@ -1,0 +1,30 @@
+{
+  "name": "todo-training-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Simple Todo app (JS frontend+backend) using localStorage. Training base for Vitest and Cypress.",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "vitest run",
+    "cy:run": "cypress run"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "cypress": "^15.8.1",
+    "eslint": "^9.39.2",
+    "globals": "^16.5.0",
+    "wait-on": "^7.2.0"
+  }
+}
